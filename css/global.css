@@ -1,14 +1,5 @@
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  white-space: nowrap;
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-.section {
-  flex: 0 0 auto;
-}/*# sourceMappingURL=global.css.map */
