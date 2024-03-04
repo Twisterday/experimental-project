@@ -138,7 +138,7 @@
 		justify-items: center;
 	}
 
-	.content--grid:has(.content__inner) {
+	.content__grid:has(.content__inner) {
 		display: block;
 		padding: 0;
 	}
