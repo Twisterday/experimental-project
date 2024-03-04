@@ -1,0 +1,94 @@
+	.frame {
+		padding: var(--page-padding);
+		position: relative;
+		display: grid;
+		z-index: 1000;
+		width: 100%;
+		grid-row-gap: 1rem;
+		grid-column-gap: 2rem;
+		justify-items: start;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+
+	.frame--header {
+		height: 100%;
+		z-index: 3000;
+		background: url(img/bg-pic.jpg) center/cover no-repeat;
+		grid-template-areas: 'title home git linkedin lorem heading';
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+	}
+
+	.frame__nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.frame__nav-links {
+		display: flex;
+		align-items: center;
+	}
+
+	.frame__title,
+	.frame__home,
+	.frame__git,
+	.frame__linkedin {
+		margin-right: 100px;
+	}
+
+	.frame a {
+		pointer-events: auto;
+	}
+
+	.frame__title {
+		grid-area: title;
+		font-size: inherit;
+	}
+
+	.frame__home {
+		grid-area: home;
+		justify-self: start;
+	}
+
+	.frame__git {
+		grid-area: git;
+		justify-self: start;
+	}
+
+	.frame__linkedin {
+		grid-area: linkedin;
+	}
+
+	.frame__lorem {
+		margin-right: 0;
+		grid-area: lorem;
+		align-self: end;
+	}
+
+	.frame__heading {
+		grid-area: heading;
+		align-self: start;
+		justify-self: start;
+		width: min-content;
+		display: flex;
+		flex-direction: column;
+		margin-top: 20vh;
+		margin-left: 80px;
+	}
+
+	.frame__heading h2 {
+		margin: 0;
+		line-height: 0.9;
+		text-transform: uppercase;
+		margin-left: -0.065em;
+		font-size: clamp(2.5rem, 12vw, 7rem);
+		text-shadow: 2px 2px 2px #5f40a7;
+	}
+
+	.frame__heading p {
+		margin: 0;
+		text-shadow: 1px 2px 2px #5f40a7;
+		font-size: 16px;
+	}
