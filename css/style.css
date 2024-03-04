@@ -93,3 +93,27 @@
 		text-shadow: 1px 2px 2px #5f40a7;
 		font-size: 16px;
 	}
+
+	.content {
+		padding: var(--page-padding);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.content--intro {
+		padding-top: 25vh;
+		padding-bottom: 25vh;
+		z-index: 2;
+		background-color: #fff;
+	}
+
+	.text-large {
+		font-size: clamp(1.5rem, 5vw, 3rem);
+		max-width: 900px;
+		margin: 0 0 0.85em 0;
+		line-height: 1.2;
+		font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100;
+		color: #5f40a7;
+	}
