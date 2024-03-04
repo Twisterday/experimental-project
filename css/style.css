@@ -138,10 +138,11 @@
 		justify-items: center;
 	}
 
-	.content__grid:has(.content__inner) {
+	.content__grid {
 		display: block;
 		padding: 0;
 	}
+
 
 	.content__inner {
 		width: 100%;
