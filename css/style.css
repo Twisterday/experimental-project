@@ -75,7 +75,7 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: 20vh;
-		margin-left: 80px;
+		margin-left: 100px;
 	}
 
 	.frame__heading h2 {
@@ -85,6 +85,7 @@
 		margin-left: -0.065em;
 		font-size: clamp(2.5rem, 12vw, 7rem);
 		text-shadow: 2px 2px 2px #5f40a7;
+		font-family: "Chillax-Semibold";
 	}
 
 	.frame__heading p {
