@@ -15,7 +15,7 @@
 		height: 100%;
 		z-index: 3000;
 		background: url(img/bg-pic.jpg) center/cover no-repeat;
-		grid-template-areas: 'title home git linkedin lorem heading';
+		grid-template-areas: 'title home git instagram lorem heading';
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
@@ -34,7 +34,7 @@
 	.frame__title,
 	.frame__home,
 	.frame__git,
-	.frame__linkedin {
+	.frame__instagram {
 		margin-right: 100px;
 	}
 
@@ -57,8 +57,8 @@
 		justify-self: start;
 	}
 
-	.frame__linkedin {
-		grid-area: linkedin;
+	.frame__instagram {
+		grid-area: instagram;
 	}
 
 	.frame__lorem {
