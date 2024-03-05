@@ -165,6 +165,11 @@
 		font-variation-settings: "slnt" 0, "wdth" 400, "wght" 900, "INKT" 400;
 	}
 
+	.content__title::after {
+		content: attr(data-text);
+		color: #a33eb8;
+	}
+
 	.content__text {
 		margin: 0;
 		max-width: 500px;
