@@ -41,7 +41,7 @@ const scroll = () => {
 			.to(inner, {
 				ease: 'power1',
 				startAt: { filter: 'brightness(100%)' },
-				filter: 'brightness(60%)',
+				filter: 'brightness(30%)',
 				scale: 0.9,
 				rotationX: -90,
 				yPercent: isLast ? 100 : 0
