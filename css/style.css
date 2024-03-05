@@ -193,3 +193,33 @@
 		z-index: 2;
 		background-color: #fff;
 	}
+
+	@media (max-width: 1024px) {
+		body {
+			--page-padding: 2rem 3rem;
+		}
+
+		.frame__lorem {
+			display: none;
+		}
+
+		.frame__heading {
+			margin-top: 20vh;
+			margin-left: 10px;
+		}
+
+		.frame__nav-links {
+			flex-direction: column;
+		}
+
+		.frame__title,
+		.frame__home,
+		.frame__git,
+		.frame__instagram {
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 15px;
+			margin-left: 50px;
+			font-size: 16px;
+		}
+	}
