@@ -125,7 +125,6 @@
 		--offset: 0px;
 		top: var(--offset);
 		height: calc(100vh - var(--offset));
-		background-color: #fff;
 	}
 
 	.content__grid .content__inner {
@@ -134,13 +133,18 @@
 		grid-column-gap: 5vw;
 		grid-row-gap: 2vh;
 		align-content: center;
-		grid-template-areas: 'content-title' 'content-text' 'content-img';
+		grid-template-areas: 'content-img' 'content-title' 'content-text';
 		justify-items: center;
 	}
 
 	.content__grid {
 		display: block;
 		padding: 0;
+	}
+
+	.content__perspective {
+		perspective-origin: 50% 0%;
+		perspective: 1000px;
 	}
 
 	.content__inner {
